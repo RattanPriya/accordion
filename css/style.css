@@ -1,0 +1,28 @@
+.accordion {
+	margin: 30px auto;
+	width: 60%;
+	overflow: auto;
+}
+.accordion-list {
+	list-style: none;
+}
+
+.accordion-title {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.accordion-header {
+	height: 20px;
+	background: #eee;
+	padding: 20px;
+	cursor: pointer;
+}
+
+.accordion-content {
+	height: 100%;
+	background: #ddd;
+	padding: 10px;
+	overflow: hidden;
+	display: none;
+}
